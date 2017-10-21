@@ -1,0 +1,7 @@
+body {
+    background-color: grey;
+}
+.posamezno_sporocilo {
+  border-width: thin;
+  border-style: solid;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Guest book</title>
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <a href="/">Domov</a>  <a href="/seznam_sporocil">Seznam sporočil</a>
+    <h1>Pozdravljen, gost</h1>
+    <p>Nam želiš kaj sporočiti?</p>
+<form class="" action="/rezultat" method="post">
+  Ime in priimek: <input type="text" name="ime" value="neznanec">
+  <br><br>
+  E - pošta: <input type="text" name="mail">
+  <br> <br>
+  <p> Sporočilo*: </p>
+    <textarea name="sporocilo" rows="8" cols="80" required></textarea>
+    <br><br>
+    <button type="submit" name="button">Pošlji</button>
+</form>
+
+
+
+</body>
+</html>
